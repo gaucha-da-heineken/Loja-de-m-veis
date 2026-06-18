@@ -8,6 +8,9 @@ programa {
     escreva("2-Guarda-roupa\n")
     escreva("3-Mesa de cabeceira\n")
     escreva("4-Cômoda\n")
+    escreva("5-Geladeira")
+    escreva("6-Fogão")
+    escreva("7-Micro-ondas ")
     escreva("-----------------------------------------\n")
     escreva("Qual dos moveis você deseja comprar:\n")
     leia(opcao)
@@ -45,8 +48,30 @@ programa {
       escreva("Valor total:", valor_total)
       pare
 
-      caso contrario:{
-        escreva("opção invalida")
+      caso 5:
+      valor_movel = 2530
+      escreva("informe a quantidade de moveis que você deseja comprar:\n ")
+      leia(qtd_movel)
+      valor_total = valor_movel * qtd_movel
+      escreva("Valor total:", valor_total)
+      pare
+
+      caso 6:
+      valor_movel = 728.11
+      escreva("informe a quantidade de moveis que você deseja comprar:\n ")
+      leia(qtd_movel)
+      valor_total = valor_movel * qtd_movel
+      escreva("Valor total:", valor_total)
+      pare
+
+      caso 7:
+      valor_movel = 612
+      escreva("informe a quantidade de moveis que você deseja comprar:\n ")
+      leia(qtd_movel)
+      valor_total = valor_movel * qtd_movel
+      escreva("Valor total:", valor_total)
+      pare
+      
       }
 
 
